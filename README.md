@@ -1,84 +1,144 @@
-# Introduction
+# Data Visualization Dashboard 📊
 
-Youpez (youpez-admin) is a highly customizable, flexible NextGen Angular UI admin template with custom made real life application UI/UX/Layouts 
+This repository contains the codebase for a Data Visualization Dashboard, a web application designed to visualize and analyze data in an interactive and informative manner. Whether you're a data analyst, business stakeholder, or researcher, this dashboard provides valuable insights through intuitive visualizations.
 
-In Youpez we collected the best UI solutions/libraries for your next awesome admin project. It contains the current and future best practices from the frontend world.
+## Table of Contents 📚
 
-Motivation behind Youpez creating a futuristic and well usable **FREE** Admin application template which is different from other average templates.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Introduction🚀
 
-![preview](http://landing.youpez.flatedgethemes.com/static/mainpic-ceb50dc3ea0c04e923155fe38c8fafac.png)
+The Data Visualization Dashboard offers a comprehensive platform to explore and analyze data through interactive charts, graphs, and maps. Users can upload their datasets or connect to external data sources to visualize trends, patterns, and correlations effortlessly.
 
-![preview2](http://landing.youpez.flatedgethemes.com/static/dark-b3278e9b4f8ec3f59b72c5b99aae5ff7.png)
+## Features🛠️
 
-[Checkout the online demo](https://youpez.vercel.app/)
+- **Interactive Visualizations**: Explore data through dynamic charts, graphs, and maps.
+- **Customizable Dashboards**: Build personalized dashboards with drag-and-drop functionality.
+- **Data Import/Export**: Import data from various file formats and export visualizations for presentations or reports.
+- **Real-time Updates**: Receive real-time updates and insights as data changes.
+- **Collaboration**: Share dashboards with team members and collaborate on data analysis projects.
+- **Responsive Design**: Access the dashboard from any device with a responsive and user-friendly interface.
 
-> As a developer, I would love to see startuppers, entrepreneurs and developers are creating awesome projects and applications with/based on this template.
-> I wanted to build a free premium template so that developers could save more time and be inspired by the enterprise-ready built-in-apps and solutions
-> ... and a huge shoutout to IBM's Carbon-Design-System team, they are awesome :)
+## Screenshots📷
 
-## Key Features
+![Dashboard Overview](https://github.com/BoddepallyVenkatesh06/Data-Visualization-Dashboard-MERN-Stack/blob/main/Screenshot_1.png)
+![Dashboard Overview](https://github.com/BoddepallyVenkatesh06/Data-Visualization-Dashboard-MERN-Stack/blob/main/Screenshot_2.png)
 
-- Customizable & flexible design
-- Unique and futuristic UI
-- Resizable layout elements
-- Pre-built and ready to use application and page designs
-- Ready to use content layouts
-- Custom components for admin panel specific use cases
-- Starter app layout ideas included for faster development
-- Dark and Light color theme support
+## Technologies Used🖥️
 
-## Core libraries
+- **Frontend**: HTML, CSS, JavaScript, React.js, D3.js
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB, PostgreSQL
+- **Authentication**: JWT (JSON Web Tokens)
+- **Deployment**: Heroku, AWS, Azure
 
-- Angular 11+
-- Angular Flex
-- Carbon Design System & Components (carbon-components-angular)
-- TailwindCSS
-- Echarts
-- Ag-Grid
+## Getting Started🎯
 
-### Built-in applications
+### Prerequisites📋
 
-- Company Dashboard
-- Data Analytics Dashboard
-- Stocks / Crypto 
-- SCRUM Board 
-- Tasks 
-- File Manager
-- Mail
-- Messages
+Before you begin, ensure you have the following installed on your system:
+- Node.js
+- npm (Node Package Manager)
+- MongoDB or PostgreSQL (based on database choice)
 
-### Pages
+### Installation⚙️
 
-A huge collection of usable pages. Check the demo!
+1. Clone the repository:
 
-### Documentation
+```bash
+git clone https://github.com/BoddepallyVenkatesh06/Data-Visualization-Dashboard-MERN-Stack.git
+cd data-visualization-dashboard
+```
 
-Detailed documentation is being written, but it is super easy to understand if you familiar with angular
+2. Install frontend dependencies:
 
------------
+```bash
+cd client
+npm install
+```
 
-## Setup
+3. Install backend dependencies:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
+```bash
+cd ../server
+npm install
+```
 
-## Development server
+## Usage📈
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Running the Application
 
-## Code scaffolding
+1. Start the backend server:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+cd server
+npm start
+```
 
-## Build
+2. Start the frontend development server:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```bash
+cd ../client
+npm start
+```
 
-## Further help
+### Building for Production
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Build the frontend for production:
 
------------
+```bash
+cd client
+npm run build
+```
 
-## Copyright and license
-MIT license with ONE LIMITATION: This template was created for startups, entrepreneurs, developers to help them create their awesome ideas/applications. It is prohibited to redistribute Youpez as stock template. 
+2. Start the backend server in production mode:
+
+```bash
+cd ../server
+NODE_ENV=production npm start
+```
+
+## Contributing❤️
+
+Contributions are welcome! If you'd like to contribute to the Data Visualization Dashboard, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
+
+## License📝
+
+```
+MIT License
+
+© 2024 Venky Kumar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
